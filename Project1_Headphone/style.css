@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f9f5ed;
+  font-family: "Monsterrat";
+} 
+body{
+    height: 100vh;
+}
+
+nav {
+  padding: 20px 10%;
+  height: 15vh;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 5%;
+  font-weight: 18px;
+}
+
+/* CSS for main Wrapper */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.left-wrapper {
+  width: 40%;
+}
+
+.left-wrapper h1 {
+  font-size: 67px;
+}
+
+.left-wrapper p {
+  margin: 5% 0;
+}
+
+.left-wrapper button {
+  padding: 15px 20px;
+  border: none;
+  background-color: #3b855b;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.right-wrapper {
+  width: 60%;
+}
+
+.right-wrapper img {
+  padding: 0px 5px;
+}
+.right-wrapper,
+.upper-image,
+.lower-image {
+  padding: 5px;
+  margin: 5px;
+}
+
